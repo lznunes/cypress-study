@@ -1,29 +1,20 @@
-# README #
+Pre Requisites:
 
-This README would normally document whatever steps are necessary to get your application up and running.
+ NodeJS 10 or 12
+ VS Code
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+1. In  VS Code terminal  initing NodeJS project
 
-### How do I get set up? ###
+#npm init
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+2. Install Cypress with Cucumber
 
-### Contribution guidelines ###
+#npm install --save-dev cypress
 
-* Writing tests
-* Code review
-* Other guidelines
+#npm install --save-dev @badeball/cypress-cucumber-preprocessor
 
-### Who do I talk to? ###
+#npm install --save-dev @bahmutov/cypress-esbuild-preprocessor
 
-* Repo owner or admin
-* Other community or team contact
+3. Initing Cypress project
+#npx cypress open
