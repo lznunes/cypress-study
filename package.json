@@ -1,0 +1,26 @@
+{
+  "name": "yeh-integration-tests",
+  "version": "1.0.0",
+  "description": "Pre Requisites:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "stepDefinitions": "cypress/support/steps/*.{js,ts}",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/netsuperdev/yeh-integration-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/netsuperdev/yeh-integration-tests#readme",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.9.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/steps/*.js"
+  }
+}
