@@ -15,7 +15,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/netsuperdev/yeh-integration-tests#readme",
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^16.0.1",
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress": "^12.9.0"
   },
