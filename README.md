@@ -4,6 +4,22 @@ Pre Requisites:
  VS Code
 
 
+Recomendado criar ambiente virtual e ativar ambiente antes de instalar os pacotes para evitar conflito com pacotes locais do computador
+
+Neste caso utilizamos do Python mesmo:
+
+#python3.8 -m venv venv
+
+Ativando ambiente virtual:
+
+#. venv/bin/activate
+
+Agora pode instalar pacotes tranquilamente
+
+###################################
+
+Confirgurando para rodar Cypress
+
 1. In  VS Code terminal  initing NodeJS project
 
 #npm init
