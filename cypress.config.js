@@ -20,7 +20,7 @@ async function setupNodeEvents(on, config){
 
 module.exports = defineConfig({
   e2e: {
-  baseUrl: 'https://pix-admin-stg.devyandeh.com.br/',
+  baseUrl: '',
   /* env: {
       apiUrl: ''
     }, */

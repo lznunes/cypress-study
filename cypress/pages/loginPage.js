@@ -7,9 +7,9 @@ class loginPage{
 
       }
       confirm_login() {
-            cy.origin('https://sso-dev.yandeh.com.br', () => {
-                  cy.get('body').get('#username').type('qayandeh@yandeh.com.br')
-                  cy.get('body').get('#password').type('Yandeh@1234')
+            cy.origin('', () => {
+                  cy.get('body').get('#username').type()
+                  cy.get('body').get('#password').type()
                   cy.get('body').get('#kc-login').click()
             })  
           }
